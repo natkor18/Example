@@ -1,11 +1,11 @@
 def plus(a, b):
-    return a + b
+    print(a + b)
 
 def minus(a, b):
-    return a - b
+    print(a - b)
 
 
 if __name__ == '__main__':
     a, b = 123, 256
-    print(plus(a, b))
-    print(minus(a, b))
+    plus(a, b)
+    minus(a, b)
