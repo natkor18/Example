@@ -7,9 +7,13 @@ def minus(a, b):
 def mul(a, b):
     return a * b
 
+def div(a, b):
+    return a // b
+
 
 if __name__ == '__main__':
     a, b = 123, 256
     print(plus(a, b))
     print(minus(a, b))
     print(mul(a, b))
+    print(div(a, b))
