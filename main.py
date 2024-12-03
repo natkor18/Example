@@ -20,5 +20,6 @@ if __name__ == '__main__':
     print(minus(a, b))
     print(mul(a, b))
     print(div(a, b))
+    print(div(a, b))
     text = 'Hello! '
     print(mess(text))
